@@ -5,7 +5,7 @@ import './index.less'
 
 export default function KuaiZhan () {
     return (
-        <div>
+        <div className='myapp'>
              <Header />
              <HomePage />
         </div>
