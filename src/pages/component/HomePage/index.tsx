@@ -37,6 +37,10 @@ import changyanyunping from '../Logo/changyanyunping.png'
 import kuaikeduo from '../Logo/kuaikeduo.png'
 import QRforService from '../Img/QRforService.png'
 import WeChatQR from '../Img/WeChatQR.png'
+import first from '../carousel/first.png'
+import second from '../carousel/second.png'
+import third from '../carousel/third.png'
+import fourth from '../carousel/fourth.png'
 
 
 export default function homepage(props: any) {
@@ -98,7 +102,22 @@ export default function homepage(props: any) {
                             </div>
                         </div>
                     </div>
-                    <div className='homepage_carousel'></div>
+                    <div className='homepage_carousel'>
+                        <div className='homepage_bannerCarousel'>
+                            <div className='homepage_bannerCarouselItems'>
+                                <div className='homepage_bannerCarouselItem'><div><img src={first} className='homepage_CarouselItemImg' /></div></div>
+                                <div className='homepage_bannerCarouselItem'><div><img src={second} className='homepage_CarouselItemImg' /></div></div>
+                                <div className='homepage_bannerCarouselItem'><div><img src={third} className='homepage_CarouselItemImg' /></div></div>
+                                <div className='homepage_bannerCarouselItem'><div><img src={fourth} className='homepage_CarouselItemImg' /></div></div>
+                            </div>
+                            <div className='homepage_bannerCarouselDot'>
+                                <div className='homepage_bannerCarouselDotItem'></div>
+                                <div className='homepage_bannerCarouselDotItem'></div>
+                                <div className='homepage_bannerCarouselDotItem'></div>
+                                <div className='homepage_bannerCarouselDotItem'></div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
 
@@ -641,7 +660,7 @@ export default function homepage(props: any) {
                          <div className='homepage_callingCardContent'>
                              <div className='homepage_ourInfoItems'>
                                  <div className='homepage_ourInfoItem' >违法违规信息举报电话 | 免费客服热线</div>
-                                 <div className='homepage_ourInfoItem' >400-780-9680</div>
+                                 <div className='homepage_ourInfoItem homepage_ourInfoItemTele' >400-780-9680</div>
                                  <div className='homepage_ourInfoItem' >周一至周五 9:30-18:30</div>
                                  <div className='homepage_ourInfoItem' >地址：北京市海淀区世纪科贸大厦B座</div>
                              </div>
@@ -696,6 +715,8 @@ export default function homepage(props: any) {
                 Copyright@2021 Kuaizhan.com Inc. All Rights Reserved. 云站科技 版权所有 北京云站科技有限公司
                 <a href='https://beian.miit.gov.cn/#/Integrated/index'>京ICP备18063655号-1</a>
             </div>
+        
+            <div className='homepage_createBtn'><a href='https://www.kuaizhan.com/v2/passport/reg'>免费注册</a></div>
         </div>
     )
 }

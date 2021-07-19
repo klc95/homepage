@@ -8,7 +8,7 @@ export default function Header(props: any) {
 
             <div className='header_left'>
                 <div className='header_logo'>
-                    <img src={headerlog} alt="LOGO" className="kz-logo__image" />
+                   <img src={headerlog} className='header_Img' />
                 </div>
                 <div className='header_nav'>
                     <div className='header_link'><a href='https://www.kuaizhan.com/v3/homepage/agent' target='_blank'>合作加盟</a><div className='header_linkundeline' ></div></div>
@@ -27,9 +27,9 @@ export default function Header(props: any) {
                 </div>
 
                 <div className='header_menu'>
-                    <div className='header_shortline'></div>
-                    <div className='header_longline'></div>
-                    <div className='header_shortline'></div>
+                    <div className='header_shortLine'></div>
+                    <div className='header_longLine'></div>
+                    <div className='header_shortLine'></div>
                 </div>
             </div>
         </div>
