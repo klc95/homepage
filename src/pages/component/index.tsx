@@ -7,7 +7,7 @@ export default function KuaiZhan () {
     return (
         <div className='myapp'>
              <Header />
-             <Homepage />
+             <Homepage />         
         </div>
     )
 }

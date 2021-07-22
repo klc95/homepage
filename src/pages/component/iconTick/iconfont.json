@@ -1,0 +1,16 @@
+{
+  "id": "2689159",
+  "name": "iconTick",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1166406",
+      "name": "打勾_无圈",
+      "font_class": "dagouwuquan",
+      "unicode": "e632",
+      "unicode_decimal": 58930
+    }
+  ]
+}

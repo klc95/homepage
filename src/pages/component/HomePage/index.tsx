@@ -41,6 +41,8 @@ import first from '../carousel/first.png'
 import second from '../carousel/second.png'
 import third from '../carousel/third.png'
 import fourth from '../carousel/fourth.png'
+import '../iconTick/iconfont.less'
+import Carousel from '../swiper'
 
 
 export default function homepage(props: any) {
@@ -104,18 +106,7 @@ export default function homepage(props: any) {
                     </div>
                     <div className='homepage_carousel'>
                         <div className='homepage_bannerCarousel'>
-                            <div className='homepage_bannerCarouselItems'>
-                                <div className='homepage_bannerCarouselItem'><div><img src={first} className='homepage_CarouselItemImg' /></div></div>
-                                <div className='homepage_bannerCarouselItem'><div><img src={second} className='homepage_CarouselItemImg' /></div></div>
-                                <div className='homepage_bannerCarouselItem'><div><img src={third} className='homepage_CarouselItemImg' /></div></div>
-                                <div className='homepage_bannerCarouselItem'><div><img src={fourth} className='homepage_CarouselItemImg' /></div></div>
-                            </div>
-                            <div className='homepage_bannerCarouselDot'>
-                                <div className='homepage_bannerCarouselDotItem'></div>
-                                <div className='homepage_bannerCarouselDotItem'></div>
-                                <div className='homepage_bannerCarouselDotItem'></div>
-                                <div className='homepage_bannerCarouselDotItem'></div>
-                            </div>
+                            <Carousel />
                         </div>
                     </div>
                 </div>
@@ -255,19 +246,19 @@ export default function homepage(props: any) {
                                         </div>
                                         <div className='homepage_OACardDescriptions'>
                                             <div className='homepage_OACardDescItem'>
-                                                <div className='homepage_OACardDescItemIcon'><i className='homepage_iconfont'>Y</i></div>
+                                                <div className='homepage_OACardDescItemIcon'><i className='iconfont homepage_icon-1'>&#xe632;</i></div>
                                                 <div className='homepage_OAcardDescItemContent'>自动粉丝标签</div>
                                             </div>
                                             <div className='homepage_OACardDescItem'>
-                                                <div className='homepage_OACardDescItemIcon'><i className='homepage_iconfont'>Y</i></div>
+                                                <div className='homepage_OACardDescItemIcon'><i className='iconfont homepage_icon-1'>&#xe632;</i></div>
                                                 <div className='homepage_OAcardDescItemContent'>参与二维码</div>
                                             </div>
                                             <div className='homepage_OACardDescItem'>
-                                                <div className='homepage_OACardDescItemIcon'><i className='homepage_iconfont'>Y</i></div>
+                                                <div className='homepage_OACardDescItemIcon'><i className='iconfont homepage_icon-1'>&#xe632;</i></div>
                                                 <div className='homepage_OAcardDescItemContent'>投票吸粉</div>
                                             </div>
                                             <div className='homepage_OACardDescItem'>
-                                                <div className='homepage_OACardDescItemIcon'><i className='homepage_iconfont'>Y</i></div>
+                                                <div className='homepage_OACardDescItemIcon'><i className='iconfont homepage_icon-1'>&#xe632;</i></div>
                                                 <div className='homepage_OAcardDescItemContent'>微积粉</div>
                                             </div>
                                         </div>
@@ -284,19 +275,19 @@ export default function homepage(props: any) {
                                         </div>
                                         <div className='homepage_OACardDescriptions'>
                                             <div className='homepage_OACardDescItem'>
-                                                <div className='homepage_OACardDescItemIcon'><i className='homepage_iconfont'>Y</i></div>
+                                                <div className='homepage_OACardDescItemIcon'><i className='iconfont homepage_icon-2'>&#xe632;</i></div>
                                                 <div className='homepage_OAcardDescItemContent'>无限群发</div>
                                             </div>
                                             <div className='homepage_OACardDescItem'>
-                                                <div className='homepage_OACardDescItemIcon'><i className='homepage_iconfont'>Y</i></div>
+                                                <div className='homepage_OACardDescItemIcon'><i className='iconfont homepage_icon-2'>&#xe632;</i></div>
                                                 <div className='homepage_OAcardDescItemContent'>互动后推送</div>
                                             </div>
                                             <div className='homepage_OACardDescItem'>
-                                                <div className='homepage_OACardDescItemIcon'><i className='homepage_iconfont'>Y</i></div>
+                                                <div className='homepage_OACardDescItemIcon'><i className='iconfont homepage_icon-2'>&#xe632;</i></div>
                                                 <div className='homepage_OAcardDescItemContent'>定时推送</div>
                                             </div>
                                             <div className='homepage_OACardDescItem'>
-                                                <div className='homepage_OACardDescItemIcon'><i className='homepage_iconfont'>Y</i></div>
+                                                <div className='homepage_OACardDescItemIcon'><i className='iconfont homepage_icon-2'>&#xe632;</i></div>
                                                 <div className='homepage_OAcardDescItemContent'>个性化推送</div>
                                             </div>
                                         </div>
@@ -313,19 +304,19 @@ export default function homepage(props: any) {
                                         </div>
                                         <div className='homepage_OACardDescriptions'>
                                             <div className='homepage_OACardDescItem'>
-                                                <div className='homepage_OACardDescItemIcon'><i className='homepage_iconfont'>Y</i></div>
+                                                <div className='homepage_OACardDescItemIcon'><i className='iconfont homepage_icon-3'>&#xe632;</i></div>
                                                 <div className='homepage_OAcardDescItemContent'>粉丝标签</div>
                                             </div>
                                             <div className='homepage_OACardDescItem'>
-                                                <div className='homepage_OACardDescItemIcon'><i className='homepage_iconfont'>Y</i></div>
+                                                <div className='homepage_OACardDescItemIcon'><i className='iconfont homepage_icon-3'>&#xe632;</i></div>
                                                 <div className='homepage_OAcardDescItemContent'>自定义菜单</div>
                                             </div>
                                             <div className='homepage_OACardDescItem'>
-                                                <div className='homepage_OACardDescItemIcon'><i className='homepage_iconfont'>Y</i></div>
+                                                <div className='homepage_OACardDescItemIcon'><i className='iconfont homepage_icon-3'>&#xe632;</i></div>
                                                 <div className='homepage_OAcardDescItemContent'>自定义回复</div>
                                             </div>
                                             <div className='homepage_OACardDescItem'>
-                                                <div className='homepage_OACardDescItemIcon'><i className='homepage_iconfont'>Y</i></div>
+                                                <div className='homepage_OACardDescItemIcon'><i className='iconfont homepage_icon-3'>&#xe632;</i></div>
                                                 <div className='homepage_OAcardDescItemContent'>消息管理</div>
                                             </div>
                                         </div>
@@ -342,15 +333,15 @@ export default function homepage(props: any) {
                                         </div>
                                         <div className='homepage_OACardDescriptions'>
                                             <div className='homepage_OACardDescItem'>
-                                                <div className='homepage_OACardDescItemIcon'><i className='homepage_iconfont'>Y</i></div>
+                                                <div className='homepage_OACardDescItemIcon'><i className='iconfont homepage_icon-4'>&#xe632;</i></div>
                                                 <div className='homepage_OAcardDescItemContent'>粉丝新增</div>
                                             </div>
                                             <div className='homepage_OACardDescItem'>
-                                                <div className='homepage_OACardDescItemIcon'><i className='homepage_iconfont'>Y</i></div>
+                                                <div className='homepage_OACardDescItemIcon'><i className='iconfont homepage_icon-4'>&#xe632;</i></div>
                                                 <div className='homepage_OAcardDescItemContent'>活跃</div>
                                             </div>
                                             <div className='homepage_OACardDescItem'>
-                                                <div className='homepage_OACardDescItemIcon'><i className='homepage_iconfont'>Y</i></div>
+                                                <div className='homepage_OACardDescItemIcon'><i className='iconfont homepage_icon-4'>&#xe632;</i></div>
                                                 <div className='homepage_OAcardDescItemContent'>留存数据</div>
                                             </div>
                                         </div>
@@ -369,7 +360,7 @@ export default function homepage(props: any) {
                 <div className='homepage_container-3'>
                     <div className='homepage_containerTitle'>营销互动</div>
                     <div className='homepage_marketingPanel'>
-                        <div className='homepage_marketingPanelItem'>
+                        <div className='homepage_marketingPanelItem homepage_marketingpanelItem-1'>
                             <div className='homepage_marketingItemCard'>
                                 <div className='homepage_marketingCard'>
                                     <div className='homepage_marketingCardContent'>
@@ -408,7 +399,7 @@ export default function homepage(props: any) {
                         </div>
                         <div className='homepage_marketingPanelItem'>
                         <img className='homepage_marketingItemImg-2' src={cloudEvaluation}/>
-                            <div className='homepage_marketingPanelCard'>
+                            <div className='homepage_marketingItemCard'>
                                 <div className='homepage_marketingCard'>
                                     <div className='homepage_marketingCardContent'>
                                         <div className='homepage_marketingCardTitle'>畅言云评</div>
@@ -444,7 +435,7 @@ export default function homepage(props: any) {
                             </div>
                             
                         </div>
-                        <div className='homepage_marketingPanelItem'>
+                        <div className='homepage_marketingPanelItem homepage_marketingpanelItem-1'>
                             <div className='homepage_marketingItemCard'>
                                 <div className='homepage_marketingCard'>
                                     <div className='homepage_marketingCardContent'>
@@ -715,7 +706,7 @@ export default function homepage(props: any) {
                 Copyright@2021 Kuaizhan.com Inc. All Rights Reserved. 云站科技 版权所有 北京云站科技有限公司
                 <a href='https://beian.miit.gov.cn/#/Integrated/index'>京ICP备18063655号-1</a>
             </div>
-        
+            
             <div className='homepage_createBtn'><a href='https://www.kuaizhan.com/v2/passport/reg'>免费注册</a></div>
         </div>
     )

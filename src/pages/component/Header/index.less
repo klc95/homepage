@@ -291,6 +291,51 @@
             background-color: #a4a4a4;
         }
     }
+
+    .drawer {
+        &_headerWrapper {
+            position: relative;
+            padding: 19px 24px;
+            background: #fff;
+            border-bottom: 1px solid #f0f0f0;
+            border-radius: 2px 2px 0 0;
+            color: rgba(0,0,0,.85);
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 22px;
+          }
+        
+          &_header {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+          }
+        
+          &_logo {
+            width: 65px;
+            height: 65px;
+            border-radius: 50%;
+          }
+        
+          &_bodyWrapper {
+            flex-grow: 1;
+            padding: 19px 42px;
+            overflow: auto;
+            font-size: 14px;
+            line-height: 1.5715;
+            word-wrap: break-word;
+            display: flex;
+            flex-direction: column;
+          }
+        
+          &_link {
+            display: block;
+            color: #000;
+            font-size: 16px;
+            margin-bottom: 24px;
+          }
+    }
 }
     
  
