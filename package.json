@@ -22,6 +22,8 @@
   "dependencies": {
     "@ant-design/pro-layout": "^6.5.0",
     "@umijs/preset-react": "1.x",
+    "antd": "^4.16.8",
+    "swiper": "^6.8.0",
     "umi": "^3.5.3"
   },
   "devDependencies": {
