@@ -37,15 +37,11 @@ import changyanyunping from '../Logo/changyanyunping.png'
 import kuaikeduo from '../Logo/kuaikeduo.png'
 import QRforService from '../Img/QRforService.png'
 import WeChatQR from '../Img/WeChatQR.png'
-import first from '../carousel/first.png'
-import second from '../carousel/second.png'
-import third from '../carousel/third.png'
-import fourth from '../carousel/fourth.png'
 import '../iconTick/iconfont.less'
 import Carousel from '../swiper'
 
 
-export default function homepage(props: any) {
+export default function Homepage(props: any) {
     return (
         <div className='homepage_wrapper'>
             <div className='homepage_screen homepage_one'>

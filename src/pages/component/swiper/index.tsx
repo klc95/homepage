@@ -5,17 +5,17 @@ import '../swiper6/swiper-bundle.min.css'
 import './index.less'
 import "swiper/components/navigation/navigation.min.css"
 import "swiper/components/pagination/pagination.min.css"
-import SwiperCore, {Pagination, Navigation, Autoplay} from 'swiper/core';
+import SwiperCore, { Pagination, Navigation, Autoplay } from 'swiper/core';
 SwiperCore.use([Pagination, Navigation, Autoplay]);
-import first from '../carousel/first.png'
-import second from '../carousel/second.png'
-import third from '../carousel/third.png'
-import fourth from '../carousel/fourth.png'
-
-
 
 export default function Carousel(props: any) {
-  
+  const [swiperlist, setSwiperlist] = useState<any>([]);
+
+  useEffect(() => {
+    fetch('http://localhost:8000/homepage/all')
+      .then(response => response.json())
+      .then(json => setSwiperlist(json.data))
+  }, [])
   return (
     <Swiper
       spaceBetween={50}
@@ -30,12 +30,10 @@ export default function Carousel(props: any) {
         "delay": 4000,
         "disableOnInteraction": false
       }}
-      
     >
-      <SwiperSlide><img src={first} /></SwiperSlide>
-      <SwiperSlide><img src={second} /></SwiperSlide>
-      <SwiperSlide><img src={third} /></SwiperSlide>
-      <SwiperSlide><img src={fourth} /></SwiperSlide>
+      {swiperlist.map((item :any) => (
+        <SwiperSlide><img src={item.url}/></SwiperSlide>
+      ))}
     </Swiper>
   )
 }
