@@ -1,11 +1,11 @@
 import React from 'react'
 import './index.less'
-import CreateWeb from '../Img/CreateWeb.png'
-import OfficialAccounts from '../Img/OfficialAccounts.png'
-import KZForm from '../Img/KZForm.png'
-import Vote from '../Img/Vote.png'
-import Comment from '../Img/Comment.png'
-import Applet from '../Img/Applet.png'
+import createWeb from '../Img/createWeb.png'
+import officialAccounts from '../Img/officialAccounts.png'
+import kzForm from '../Img/kzForm.png'
+import vote from '../Img/vote.png'
+import comment from '../Img/comment.png'
+import applet from '../Img/applet.png'
 import SitePanelImg from '../Img/SitePanelImg.png'
 import attractFans from '../Img/attractFans.png'
 import enhanceWeChatCapability from '../Img/enhanceWeChatCapability.png'
@@ -51,7 +51,7 @@ export default function Homepage(props: any) {
                             <div className='homepage_menuTitle'>产品服务</div>
                             <div className='homepage_menuLinks'>
                                 <div className='homepage_linksItem'>
-                                    <img className='homepage_linkImg' src={CreateWeb} alt='-' />
+                                    <img className='homepage_linkImg' src={createWeb} alt='-' />
                                     <div className='homepage_linkText'>
                                         <div className='homepage_linkTitle'>建站</div>
                                         <div className='homepage_linkTip'>零门槛快速建站</div>
@@ -59,7 +59,7 @@ export default function Homepage(props: any) {
                                 </div>
 
                                 <div className='homepage_linksItem'>
-                                    <img className='homepage_linkImg' src={OfficialAccounts} alt='-' />
+                                    <img className='homepage_linkImg' src={officialAccounts} alt='-' />
                                     <div className='homepage_linkText'>
                                         <div className='homepage_linkTitle'>公众号</div>
                                         <div className='homepage_linkTip'>快速吸粉、高效管理</div>
@@ -67,7 +67,7 @@ export default function Homepage(props: any) {
                                 </div>
 
                                 <div className='homepage_linksItem'>
-                                    <img className='homepage_linkImg' src={KZForm} alt='-' />
+                                    <img className='homepage_linkImg' src={kzForm} alt='-' />
                                     <div className='homepage_linkText'>
                                         <div className='homepage_linkTitle'>快站表单</div>
                                         <div className='homepage_linkTip'>信息收集、用户数据分析</div>
@@ -75,7 +75,7 @@ export default function Homepage(props: any) {
                                 </div>
 
                                 <div className='homepage_linksItem'>
-                                    <img className='homepage_linkImg' src={Vote} alt='-' />
+                                    <img className='homepage_linkImg' src={vote} alt='-' />
                                     <div className='homepage_linkText'>
                                         <div className='homepage_linkTitle'>快投票</div>
                                         <div className='homepage_linkTip'>个性化投票系统</div>
@@ -83,7 +83,7 @@ export default function Homepage(props: any) {
                                 </div>
 
                                 <div className='homepage_linksItem'>
-                                    <img className='homepage_linkImg' src={Comment} alt='-' />
+                                    <img className='homepage_linkImg' src={comment} alt='-' />
                                     <div className='homepage_linkText'>
                                         <div className='homepage_linkTitle'>畅言云评</div>
                                         <div className='homepage_linkTip'>智能评论管理</div>
@@ -91,7 +91,7 @@ export default function Homepage(props: any) {
                                 </div>
 
                                 <div className='homepage_linksItem'>
-                                    <img className='homepage_linkImg' src={Applet} alt='-' />
+                                    <img className='homepage_linkImg' src={applet} alt='-' />
                                     <div className='homepage_linkText'>
                                         <div className='homepage_linkTitle'>小程序</div>
                                         <div className='homepage_linkTip'>拖拽式快速搭建小程序</div>
@@ -391,10 +391,10 @@ export default function Homepage(props: any) {
                                     </div>
                                 </div>
                             </div>
-                            <img className='homepage_marketingItemImg-1' src={quickVote}/>
+                            <img className='homepage_marketingItemImg-1' src={quickVote} />
                         </div>
                         <div className='homepage_marketingPanelItem'>
-                        <img className='homepage_marketingItemImg-2' src={cloudEvaluation}/>
+                            <img className='homepage_marketingItemImg-2' src={cloudEvaluation} />
                             <div className='homepage_marketingItemCard'>
                                 <div className='homepage_marketingCard'>
                                     <div className='homepage_marketingCardContent'>
@@ -429,7 +429,7 @@ export default function Homepage(props: any) {
                                     </div>
                                 </div>
                             </div>
-                            
+
                         </div>
                         <div className='homepage_marketingPanelItem homepage_marketingpanelItem-1'>
                             <div className='homepage_marketingItemCard'>
@@ -466,7 +466,7 @@ export default function Homepage(props: any) {
                                     </div>
                                 </div>
                             </div>
-                            <img className='homepage_marketingItemImg-3' src={advertising}/>
+                            <img className='homepage_marketingItemImg-3' src={advertising} />
                         </div>
                     </div>
                 </div>
@@ -474,235 +474,235 @@ export default function Homepage(props: any) {
 
             <div className='homepage_screen homepage_five'>
                 <div className='homepage_container-4'>
-                <div className='homepage_containerTitle'>用心做服务 成就行业口碑影响力</div>
-                <div className='homepage_userPanel'>
-                    <div className='homepage_userPanelData'>
-                        <div className='homepage_dataItem'>
-                            <div className='homepage_dataNumber'>
-                                <span className='homepage_emphasisNum'>600</span>
-                                <span className='homepage_plusSymbol'>+</span>
-                                <span className='homepage_dataunit'>万</span>
+                    <div className='homepage_containerTitle'>用心做服务 成就行业口碑影响力</div>
+                    <div className='homepage_userPanel'>
+                        <div className='homepage_userPanelData'>
+                            <div className='homepage_dataItem'>
+                                <div className='homepage_dataNumber'>
+                                    <span className='homepage_emphasisNum'>600</span>
+                                    <span className='homepage_plusSymbol'>+</span>
+                                    <span className='homepage_dataunit'>万</span>
+                                </div>
+                                <div className='homepage_dataTitle'>注册用户</div>
                             </div>
-                            <div className='homepage_dataTitle'>注册用户</div>
-                        </div>
-                        <div className='homepage_dataItem'>
-                            <div className='homepage_dataNumber'>
-                                <span className='homepage_emphasisNum'>900</span>
-                                <span className='homepage_plusSymbol'>+</span>
-                                <span className='homepage_dataunit'>万</span>
+                            <div className='homepage_dataItem'>
+                                <div className='homepage_dataNumber'>
+                                    <span className='homepage_emphasisNum'>900</span>
+                                    <span className='homepage_plusSymbol'>+</span>
+                                    <span className='homepage_dataunit'>万</span>
+                                </div>
+                                <div className='homepage_dataTitle'>累计服务站点</div>
                             </div>
-                            <div className='homepage_dataTitle'>累计服务站点</div>
-                        </div>
-                        <div className='homepage_dataItem'>
-                            <div className='homepage_dataNumber'>
-                                <span className='homepage_emphasisNum'>360</span>
-                                <span className='homepage_plusSymbol'>+</span>
-                                <span className='homepage_dataunit'>种</span>
+                            <div className='homepage_dataItem'>
+                                <div className='homepage_dataNumber'>
+                                    <span className='homepage_emphasisNum'>360</span>
+                                    <span className='homepage_plusSymbol'>+</span>
+                                    <span className='homepage_dataunit'>种</span>
+                                </div>
+                                <div className='homepage_dataTitle'>覆盖行业</div>
                             </div>
-                            <div className='homepage_dataTitle'>覆盖行业</div>
+
                         </div>
-                        
+                        <div className='homepage_userPanelWords'>
+                            <p className='homepage_emphasisText'>他们都在用搜狐快站</p>
+                            <span className='homepage_shallowText'>来自政府组织、互联网、媒体、教育等各个行业的用户</span>
+                            <span className='homepage_shallowText'>以下为友情链接</span>
+                        </div>
+                        <div className='homepage_users'>
+                            <ul className='homepage_usersPanelUl'>
+                                <li className='homepage_userPanelLink'>
+                                    <a href='https://www.sogou.com/' target='_blank' rel='nofollow'>
+                                        <img className='homepage_usersPanelLogo' alt='搜狗' src={sogou} />
+                                    </a>
+                                </li>
+                                <li className='homepage_userPanelLink'>
+                                    <a href='https://tv.sohu.com/' target='_blank' rel='nofollow'>
+                                        <img className='homepage_usersPanelLogo' alt='搜狐视频' src={sohushipin} />
+                                    </a>
+                                </li>
+                                <li className='homepage_userPanelLink'>
+                                    <a href='https://auto.sohu.com/' target='_blank' rel='nofollow'>
+                                        <img className='homepage_usersPanelLogo' alt='搜狐汽车' src={sohuqiche} />
+                                    </a>
+                                </li>
+                                <li className='homepage_userPanelLink'>
+                                    <a href='https://cloud.tencent.com/' target='_blank' rel='nofollow'>
+                                        <img className='homepage_usersPanelLogo' alt='腾讯云' src={tengxunyun} />
+                                    </a>
+                                </li>
+                                <li className='homepage_userPanelLink'>
+                                    <a href='https://ditu.amap.com/' target='_blank' rel='nofollow'>
+                                        <img className='homepage_usersPanelLogo' alt='高德地图' src={gaode} />
+                                    </a>
+                                </li>
+                                <li className='homepage_userPanelLink'>
+                                    <a href='https://zhanzhang.sogou.com/' target='_blank' rel='nofollow'>
+                                        <img className='homepage_usersPanelLogo' alt='搜狗搜索' src={sogousousuo} />
+                                    </a>
+                                </li>
+                                <li className='homepage_userPanelLink'>
+                                    <a href='https://36kr.com/' target='_blank' rel='nofollow'>
+                                        <img className='homepage_usersPanelLogo' alt='36kr' src={kr} />
+                                    </a>
+                                </li>
+                                <li className='homepage_userPanelLink'>
+                                    <a href='https://www.warting.com/' target='_blank' rel='nofollow'>
+                                        <img className='homepage_usersPanelLogo' alt='设计帝国' src={shejidiguo} />
+                                    </a>
+                                </li>
+                                <li className='homepage_userPanelLink'>
+                                    <a href='https://www.jsform.com/' target='_blank' rel='nofollow'>
+                                        <img className='homepage_usersPanelLogo' alt='表单大师' src={biaodandashi} />
+                                    </a>
+                                </li>
+                                <li className='homepage_userPanelLink'>
+                                    <a href='http://www.gfan.com/' target='_blank' rel='nofollow'>
+                                        <img className='homepage_usersPanelLogo' alt='机锋' src={jifeng} />
+                                    </a>
+                                </li>
+                                <li className='homepage_userPanelLink'>
+                                    <a href='https://e.360.cn/' target='_blank' rel='nofollow'>
+                                        <img className='homepage_usersPanelLogo' alt='360点睛' src={dianjing} />
+                                    </a>
+                                </li>
+                                <li className='homepage_userPanelLink'>
+                                    <a href='https://www.sobot.com/' target='_blank' rel='nofollow'>
+                                        <img className='homepage_usersPanelLogo' alt='智齿客服' src={zhichikefu} />
+                                    </a>
+                                </li>
+                                <li className='homepage_userPanelLink'>
+                                    <a href='https://www.68design.net/' target='_blank' rel='nofollow'>
+                                        <img className='homepage_usersPanelLogo' alt='68Design' src={design} />
+                                    </a>
+                                </li>
+                                <li className='homepage_userPanelLink'>
+                                    <a href='http://www.cndesign.com/' target='_blank' rel='nofollow'>
+                                        <img className='homepage_usersPanelLogo' alt='中国设计网' src={zhongguoshejiwang} />
+                                    </a>
+                                </li>
+                                <li className='homepage_userPanelLink'>
+                                    <a href='https://weixinhost.com/' target='_blank' rel='nofollow'>
+                                        <img className='homepage_usersPanelLogo' alt='侯斯特' src={housite} />
+                                    </a>
+                                </li>
+                                <li className='homepage_userPanelLink'>
+                                    <a href='https://www.nuanshi100.com/' target='_blank' rel='nofollow'>
+                                        <img className='homepage_usersPanelLogo' alt='暖石' src={nuanshi} />
+                                    </a>
+                                </li>
+                                <li className='homepage_userPanelLink'>
+                                    <a href='https://www.newrank.cn/' target='_blank' rel='nofollow'>
+                                        <img className='homepage_usersPanelLogo' alt='新榜' src={xinbang} />
+                                    </a>
+                                </li>
+                                <li className='homepage_userPanelLink'>
+                                    <a href='https://www.100msh.net/' target='_blank' rel='nofollow'>
+                                        <img className='homepage_usersPanelLogo' alt='百米生活' src={baimishenghuo} />
+                                    </a>
+                                </li>
+                                <li className='homepage_userPanelLink'>
+                                    <a href='https://www.shejipi.com/' target='_blank' rel='nofollow'>
+                                        <img className='homepage_usersPanelLogo' alt='设计癖' src={shejipi} />
+                                    </a>
+                                </li>
+                                <li className='homepage_userPanelLink'>
+                                    <a href='http://changyan.kuaizhan.com/' target='_blank' rel='nofollow'>
+                                        <img className='homepage_usersPanelLogo' alt='畅言云评' src={changyanyunping} />
+                                    </a>
+                                </li>
+                                <li className='homepage_userPanelLink'>
+                                    <a href='http://kuaikeduo.kuaizhan.com/' target='_blank' rel='nofollow'>
+                                        <img className='homepage_usersPanelLogo' alt='快客多' src={kuaikeduo} />
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
-                    <div className='homepage_userPanelWords'>
-                        <p className='homepage_emphasisText'>他们都在用搜狐快站</p>
-                        <span className='homepage_shallowText'>来自政府组织、互联网、媒体、教育等各个行业的用户</span>
-                        <span className='homepage_shallowText'>以下为友情链接</span>
-                    </div>
-                    <div className='homepage_users'>
-                        <ul className='homepage_usersPanelUl'>
-                            <li className='homepage_userPanelLink'>
-                                <a href='https://www.sogou.com/'  target='_blank' rel='nofollow'>
-                                    <img className='homepage_usersPanelLogo' alt='搜狗' src={sogou}/>
-                                </a>
-                            </li>
-                            <li className='homepage_userPanelLink'>
-                                <a href='https://tv.sohu.com/'  target='_blank' rel='nofollow'>
-                                    <img className='homepage_usersPanelLogo' alt='搜狐视频' src={sohushipin}/>
-                                </a>
-                            </li>
-                            <li className='homepage_userPanelLink'>
-                                <a href='https://auto.sohu.com/'  target='_blank' rel='nofollow'>
-                                    <img className='homepage_usersPanelLogo' alt='搜狐汽车' src={sohuqiche}/>
-                                </a>
-                            </li>
-                            <li className='homepage_userPanelLink'>
-                                <a href='https://cloud.tencent.com/'  target='_blank' rel='nofollow'>
-                                    <img className='homepage_usersPanelLogo' alt='腾讯云' src={tengxunyun}/>
-                                </a>
-                            </li>
-                            <li className='homepage_userPanelLink'>
-                                <a href='https://ditu.amap.com/'  target='_blank' rel='nofollow'>
-                                    <img className='homepage_usersPanelLogo' alt='高德地图' src={gaode}/>
-                                </a>
-                            </li>
-                            <li className='homepage_userPanelLink'>
-                                <a href='https://zhanzhang.sogou.com/'  target='_blank' rel='nofollow'>
-                                    <img className='homepage_usersPanelLogo' alt='搜狗搜索' src={sogousousuo}/>
-                                </a>
-                            </li>
-                            <li className='homepage_userPanelLink'>
-                                <a href='https://36kr.com/'  target='_blank' rel='nofollow'>
-                                    <img className='homepage_usersPanelLogo' alt='36kr' src={kr}/>
-                                </a>
-                            </li>
-                            <li className='homepage_userPanelLink'>
-                                <a href='https://www.warting.com/'  target='_blank' rel='nofollow'>
-                                    <img className='homepage_usersPanelLogo' alt='设计帝国' src={shejidiguo}/>
-                                </a>
-                            </li>
-                            <li className='homepage_userPanelLink'>
-                                <a href='https://www.jsform.com/'  target='_blank' rel='nofollow'>
-                                    <img className='homepage_usersPanelLogo' alt='表单大师' src={biaodandashi}/>
-                                </a>
-                            </li>
-                            <li className='homepage_userPanelLink'>
-                                <a href='http://www.gfan.com/'  target='_blank' rel='nofollow'>
-                                    <img className='homepage_usersPanelLogo' alt='机锋' src={jifeng}/>
-                                </a>
-                            </li>
-                            <li className='homepage_userPanelLink'>
-                                <a href='https://e.360.cn/'  target='_blank' rel='nofollow'>
-                                    <img className='homepage_usersPanelLogo' alt='360点睛' src={dianjing}/>
-                                </a>
-                            </li>
-                            <li className='homepage_userPanelLink'>
-                                <a href='https://www.sobot.com/'  target='_blank' rel='nofollow'>
-                                    <img className='homepage_usersPanelLogo' alt='智齿客服' src={zhichikefu}/>
-                                </a>
-                            </li>
-                            <li className='homepage_userPanelLink'>
-                                <a href='https://www.68design.net/'  target='_blank' rel='nofollow'>
-                                    <img className='homepage_usersPanelLogo' alt='68Design' src={design}/>
-                                </a>
-                            </li>
-                            <li className='homepage_userPanelLink'>
-                                <a href='http://www.cndesign.com/'  target='_blank' rel='nofollow'>
-                                    <img className='homepage_usersPanelLogo' alt='中国设计网' src={zhongguoshejiwang}/>
-                                </a>
-                            </li>
-                            <li className='homepage_userPanelLink'>
-                                <a href='https://weixinhost.com/'  target='_blank' rel='nofollow'>
-                                    <img className='homepage_usersPanelLogo' alt='侯斯特' src={housite}/>
-                                </a>
-                            </li>
-                            <li className='homepage_userPanelLink'>
-                                <a href='https://www.nuanshi100.com/'  target='_blank' rel='nofollow'>
-                                    <img className='homepage_usersPanelLogo' alt='暖石' src={nuanshi}/>
-                                </a>
-                            </li>
-                            <li className='homepage_userPanelLink'>
-                                <a href='https://www.newrank.cn/'  target='_blank' rel='nofollow'>
-                                    <img className='homepage_usersPanelLogo' alt='新榜' src={xinbang}/>
-                                </a>
-                            </li>
-                            <li className='homepage_userPanelLink'>
-                                <a href='https://www.100msh.net/'  target='_blank' rel='nofollow'>
-                                    <img className='homepage_usersPanelLogo' alt='百米生活' src={baimishenghuo}/>
-                                </a>
-                            </li>
-                            <li className='homepage_userPanelLink'>
-                                <a href='https://www.shejipi.com/'  target='_blank' rel='nofollow'>
-                                    <img className='homepage_usersPanelLogo' alt='设计癖' src={shejipi}/>
-                                </a>
-                            </li>
-                            <li className='homepage_userPanelLink'>
-                                <a href='http://changyan.kuaizhan.com/'  target='_blank' rel='nofollow'>
-                                    <img className='homepage_usersPanelLogo' alt='畅言云评' src={changyanyunping}/>
-                                </a>
-                            </li>
-                            <li className='homepage_userPanelLink'>
-                                <a href='http://kuaikeduo.kuaizhan.com/'  target='_blank' rel='nofollow'>
-                                    <img className='homepage_usersPanelLogo' alt='快客多' src={kuaikeduo}/>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
                 </div>
             </div>
-            
-            <div className='homepage_ourInfo'>
-                 <div className='homepage_ourInfoContainer'>
-                     <div className='homepage_callingCard'>
-                         <div className='homepage_callingCardTitle'>
-                             <div className='homepage_verticalLine'></div>
-                             <span>更多服务</span>
-                         </div>
-                         <div className='homepage_callingCardCut'></div>
-                         <div className='homepage_callingCardContent'>
-                             <div className='homepage_ourInfoItems'>
-                                 <a className='homepage_ourInfoItem' href='https://www.kuaizhan.com/v3/homepage/cases' target='_blank'>案例</a>
-                                 <a className='homepage_ourInfoItem' href='https://www.kuaizhan.com/v3/homepage/about' target='_blank'>关于我们</a>
-                                 <a className='homepage_ourInfoItem' href='https://i.kuaizhan.com/90/3/p2649405090dde7' target='_blank'>快站大学</a>
-                                 <a className='homepage_ourInfoItem' href='https://wiki.kuaizhan.com/pub/%E9%A6%96%E9%A1%B5' target='_blank'>帮助中心</a>
-                             </div>
-                         </div>
-                     </div>
-                     <div className='homepage_callingCard'>
-                         <div className='homepage_callingCardTitle'>
-                             <div className='homepage_verticalLine'></div>
-                             <span>在线咨询</span>
-                         </div>
-                         <div className='homepage_callingCardCut'></div>
-                         <div className='homepage_callingCardContent'>
-                             <div className='homepage_ourInfoItems'>
-                                 <div className='homepage_ourInfoItem' >违法违规信息举报电话 | 免费客服热线</div>
-                                 <div className='homepage_ourInfoItem homepage_ourInfoItemTele' >400-780-9680</div>
-                                 <div className='homepage_ourInfoItem' >周一至周五 9:30-18:30</div>
-                                 <div className='homepage_ourInfoItem' >地址：北京市海淀区世纪科贸大厦B座</div>
-                             </div>
-                         </div>
-                     </div>
-                     <div className='homepage_callingCard'>
-                         <div className='homepage_callingCardTitle'>
-                             <div className='homepage_verticalLine'></div>
-                             <span>合作微信</span>
-                         </div>
-                         <div className='homepage_callingCardCut'></div>
-                         <div className='homepage_callingCardContent'>
-                             <div className='homepage_ourInfoItems'>
-                                 <div className='homepage_QRcodeWrapper'>
-                                     <div className='homepage_QRcodeContainer-1'>
-                                         <div className='homepage_QRcodeContainerTitle'>客服人员</div>
-                                         <div className='homepage_QRcode'><img src={QRforService}/></div>
-                                     </div>
-                                     <div className='homepage_QRcodeContainer-2'>
-                                         <div className='homepage_QRcodeContainerTitle'>微信公众号</div>
-                                         <div className='homepage_QRcode'><img src={WeChatQR}/></div>
-                                     </div>
-                                     
-                                 </div>
-                                 <div className='homepage_ourInfoItem homepage_ourInfoEmail'>
-                                     "商务合作: "
-                                     <a className='homepage_ourInfoItem' href='https://www.kuaizhan.com/malito:suyuchun@icloudfuture.com'>suyuchun@icloudfuture.com</a>
-                                 </div>
 
-                             </div>
-                         </div>
-                     </div>
-                     <div className='homepage_callingCard'>
-                         <div className='homepage_callingCardTitle'>
-                             <div className='homepage_verticalLine'></div>
-                             <span>免费试用</span>
-                         </div>
-                         <div className='homepage_callingCardCut'></div>
-                         <div className='homepage_callingCardContent'>
-                             <div className='homepage_ourInfoItems'>
-                                 <div className='homepage_freeTrial'>
-                                     <input className='homepage_freeTrial-input' placeholder='请输入手机号'/>
-                                     <div className='homepage_freeTrial-btn'>试用</div>
-                                 </div>
-                             </div>
-                         </div>
-                     </div>
-                 </div>
+            <div className='homepage_ourInfo'>
+                <div className='homepage_ourInfoContainer'>
+                    <div className='homepage_callingCard'>
+                        <div className='homepage_callingCardTitle'>
+                            <div className='homepage_verticalLine'></div>
+                            <span>更多服务</span>
+                        </div>
+                        <div className='homepage_callingCardCut'></div>
+                        <div className='homepage_callingCardContent'>
+                            <div className='homepage_ourInfoItems'>
+                                <a className='homepage_ourInfoItem' href='https://www.kuaizhan.com/v3/homepage/cases' target='_blank'>案例</a>
+                                <a className='homepage_ourInfoItem' href='https://www.kuaizhan.com/v3/homepage/about' target='_blank'>关于我们</a>
+                                <a className='homepage_ourInfoItem' href='https://i.kuaizhan.com/90/3/p2649405090dde7' target='_blank'>快站大学</a>
+                                <a className='homepage_ourInfoItem' href='https://wiki.kuaizhan.com/pub/%E9%A6%96%E9%A1%B5' target='_blank'>帮助中心</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div className='homepage_callingCard'>
+                        <div className='homepage_callingCardTitle'>
+                            <div className='homepage_verticalLine'></div>
+                            <span>在线咨询</span>
+                        </div>
+                        <div className='homepage_callingCardCut'></div>
+                        <div className='homepage_callingCardContent'>
+                            <div className='homepage_ourInfoItems'>
+                                <div className='homepage_ourInfoItem' >违法违规信息举报电话 | 免费客服热线</div>
+                                <div className='homepage_ourInfoItem homepage_ourInfoItemTele' >400-780-9680</div>
+                                <div className='homepage_ourInfoItem' >周一至周五 9:30-18:30</div>
+                                <div className='homepage_ourInfoItem' >地址：北京市海淀区世纪科贸大厦B座</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className='homepage_callingCard'>
+                        <div className='homepage_callingCardTitle'>
+                            <div className='homepage_verticalLine'></div>
+                            <span>合作微信</span>
+                        </div>
+                        <div className='homepage_callingCardCut'></div>
+                        <div className='homepage_callingCardContent'>
+                            <div className='homepage_ourInfoItems'>
+                                <div className='homepage_QRcodeWrapper'>
+                                    <div className='homepage_QRcodeContainer-1'>
+                                        <div className='homepage_QRcodeContainerTitle'>客服人员</div>
+                                        <div className='homepage_QRcode'><img src={QRforService} /></div>
+                                    </div>
+                                    <div className='homepage_QRcodeContainer-2'>
+                                        <div className='homepage_QRcodeContainerTitle'>微信公众号</div>
+                                        <div className='homepage_QRcode'><img src={WeChatQR} /></div>
+                                    </div>
+
+                                </div>
+                                <div className='homepage_ourInfoItem homepage_ourInfoEmail'>
+                                    "商务合作: "
+                                     <a className='homepage_ourInfoItem' href='https://www.kuaizhan.com/malito:suyuchun@icloudfuture.com'>suyuchun@icloudfuture.com</a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div className='homepage_callingCard'>
+                        <div className='homepage_callingCardTitle'>
+                            <div className='homepage_verticalLine'></div>
+                            <span>免费试用</span>
+                        </div>
+                        <div className='homepage_callingCardCut'></div>
+                        <div className='homepage_callingCardContent'>
+                            <div className='homepage_ourInfoItems'>
+                                <div className='homepage_freeTrial'>
+                                    <input className='homepage_freeTrial-input' placeholder='请输入手机号' />
+                                    <div className='homepage_freeTrial-btn'>试用</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
 
             <div className='homepage_layout-footer'>
                 Copyright@2021 Kuaizhan.com Inc. All Rights Reserved. 云站科技 版权所有 北京云站科技有限公司
                 <a href='https://beian.miit.gov.cn/#/Integrated/index'>京ICP备18063655号-1</a>
             </div>
-            
+
             <div className='homepage_createBtn'><a href='https://www.kuaizhan.com/v2/passport/reg'>免费注册</a></div>
         </div>
     )

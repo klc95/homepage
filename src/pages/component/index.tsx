@@ -1,6 +1,6 @@
 import React from 'react'
-import Header from './Header'
-import Homepage from './Homepage'
+import Header from './header'
+import Homepage from './homepage'
 import './index.less'
 
 export default function KuaiZhan () {
